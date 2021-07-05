@@ -1,8 +1,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'Ubuntu-16.04'
+pool: AgentPoolSelf
 
 steps:
 - task: NodeTool@0
