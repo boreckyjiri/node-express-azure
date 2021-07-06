@@ -18,5 +18,3 @@ steps:
   displayName: 'npm test'
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish artifacts: drop'
-  
